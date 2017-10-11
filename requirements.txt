@@ -1,0 +1,6 @@
+matplotlib=1.5
+networkx
+pandas
+seaborn
+numpy
+
