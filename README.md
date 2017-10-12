@@ -33,7 +33,7 @@ For more details, see our publication *Reconstructing metastatic seeding pattern
   - Install Python 3.4 ([https://www.python.org/downloads](https://www.python.org/downloads))
   - Install NumPy ([http://www.numpy.org](http://www.numpy.org)), 
     SciPy ([http://www.numpy.org](http://www.numpy.org))
-  - Install networkx ([https://networkx.github.io/](https://networkx.github.io/))
+  - Install networkx 1.11 (NOT 2.0) ([https://networkx.github.io/](https://networkx.github.io/))
   - Install matplotlib 1.4 or 1.5 (matplotlib 2 can cause various problems with the layout; [http://matplotlib.org](http://matplotlib.org/))
   - Install pandas ([http://pandas.pydata.org/](http://pandas.pydata.org/))
   - Install seaborn ([https://stanford.edu/~mwaskom/software/seaborn/](https://stanford.edu/~mwaskom/software/seaborn/))
