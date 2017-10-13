@@ -5,6 +5,11 @@ import os
 import argparse
 from collections import Counter
 import csv
+#########this must be first graphing package imported
+##inside this we set matplotlib.use('agg') 
+import plots.plots_utils as plts
+#####need to use backend AGG on headless systems
+###otherwise no DISPLAY variable will crash qt4
 from utils.driver import get_drivers, potential_driver, Driver
 from patient import Patient
 import settings
@@ -13,7 +18,7 @@ import tree_inference as ti
 from utils.html_report import HTMLReport
 from utils.analysis import analyze_data
 from utils.data_tables import read_table
-import plots.plots_utils as plts
+
 import plots.mp_graph as mp_graph
 import plots.circos as circos
 import utils.analysis as analysis
