@@ -3,9 +3,10 @@ import logging
 import numpy as np
 from collections import defaultdict
 from itertools import cycle
+import matplotlib as mpl
+matplotlib.use('agg')
 import scipy.cluster.hierarchy as sch
 import matplotlib.pyplot as plt
-import matplotlib as mpl
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.cm import ScalarMappable
 import pandas as pd
