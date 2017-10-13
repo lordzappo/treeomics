@@ -426,12 +426,12 @@ def main():
         logger.error('Subclone and partial solution space search are not supported to be performed at the same time! ')
         usage()
 
-    if os.getcwd().endswith('treeomics'):
+    #if os.getcwd().endswith('treeomics'):
         # application has been started from this directory
-        input_directory = os.path.join('..')
-    else:
-        input_directory = os.path.join('.')
-
+    #    input_directory = os.path.join('..')
+    #else:
+    #    input_directory = os.path.join('.')
+    input_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
     if args.wes_filtering:
         logger.info('All intronic or intergenic variants will be excluded (WES filtering).')
 
